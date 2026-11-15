@@ -1,0 +1,18 @@
+{
+  "candidate_id": "C03",
+  "repository": "https://github.com/DaveGamble/cJSON",
+  "fork": "https://github.com/skopf87/cJSON",
+  "upstream_commit": "6d9f2443ab071f86e5d9b43025a40929ec41c46c",
+  "original_verified_lab_commit": "553c85d470fcf652d7b589580ba8fa765aac5235",
+  "original_lab_checkpoint": "b3ab746df57c36a2707d806fd96ee08f19516d91",
+  "implementation_file": "cJSON.c",
+  "implementation_sha256": "1cecc261c0ad1c7240469cd275ec0fbcdafa216a4b29a83476f98471e225a92c",
+  "implementation_git_blob": "616dfb8338da3e320dee6c59059fafeaa9c0b9ec",
+  "confirmation_experiment": "C03-confirm-upstream",
+  "confirmed_paired_time_reduction_pct": 16.035188878259333,
+  "confirmed_ratio_ci95": [
+    0.8281614960995596,
+    0.85052399729533
+  ],
+  "novelty": "Known implementation technique; global novelty uncertain"
+}

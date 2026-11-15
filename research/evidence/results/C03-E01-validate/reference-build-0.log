@@ -1,0 +1,7 @@
+In file included from /workspace/research/worktrees/C03-E01-validate/reference/tests/unity/src/unity_internals.h:10,
+                 from /workspace/research/worktrees/C03-E01-validate/reference/tests/unity/src/unity.h:16,
+                 from /workspace/research/worktrees/C03-E01-validate/reference/tests/unity/src/unity.c:8:
+/workspace/research/worktrees/C03-E01-validate/reference/tests/unity/src/../examples/unity_config.h:124:9: warning: "UNITY_INCLUDE_DOUBLE" redefined
+  124 | #define UNITY_INCLUDE_DOUBLE
+      |         ^~~~~~~~~~~~~~~~~~~~
+<command-line>: note: this is the location of the previous definition

@@ -1,0 +1,8 @@
+{
+  "best_commit": "553c85d470fcf652d7b589580ba8fa765aac5235",
+  "status": "completed",
+  "baseline_experiment": "C03-baseline",
+  "best_experiment": "C03-E01-validate",
+  "confirmation_experiment": "C03-confirm-upstream",
+  "conclusion": "Validated and independently rerun against original upstream on this CPU"
+}

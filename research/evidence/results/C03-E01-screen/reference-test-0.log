@@ -1,0 +1,1015 @@
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_examples.c:283:file_test1_should_be_parsed_and_printed:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_examples.c:284:file_test2_should_be_parsed_and_printed:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_examples.c:285:file_test3_should_be_parsed_and_printed:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_examples.c:286:file_test4_should_be_parsed_and_printed:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_examples.c:287:file_test5_should_be_parsed_and_printed:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_examples.c:288:file_test6_should_not_be_parsed:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_examples.c:289:file_test7_should_be_parsed_and_printed:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_examples.c:290:file_test8_should_be_parsed_and_printed:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_examples.c:291:file_test9_should_be_parsed_and_printed:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_examples.c:292:file_test10_should_be_parsed_and_printed:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_examples.c:293:file_test11_should_be_parsed_and_printed:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_examples.c:294:test12_should_not_be_parsed:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_examples.c:295:test13_should_be_parsed_without_null_termination:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_examples.c:296:test14_should_not_be_parsed:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_examples.c:297:test15_should_not_heap_buffer_overflow:PASS
+
+-----------------------
+15 Tests 0 Failures 0 Ignored 
+OK
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_number.c:123:parse_number_should_parse_zero:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_number.c:124:parse_number_should_parse_negative_integers:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_number.c:125:parse_number_should_parse_positive_integers:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_number.c:126:parse_number_should_parse_positive_reals:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_number.c:127:parse_number_should_parse_negative_reals:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_number.c:128:parse_number_should_parse_big_numbers:PASS
+
+-----------------------
+6 Tests 0 Failures 0 Ignored 
+OK
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_hex4.c:70:parse_hex4_should_parse_all_combinations:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_hex4.c:71:parse_hex4_should_parse_mixed_case:PASS
+
+-----------------------
+2 Tests 0 Failures 0 Ignored 
+OK
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_string.c:128:parse_string_should_parse_strings:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_string.c:129:parse_string_should_parse_utf16_surrogate_pairs:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_string.c:130:parse_string_should_not_parse_non_strings:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_string.c:131:parse_string_should_not_parse_invalid_backslash:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_string.c:132:parse_string_should_parse_bug_94:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_string.c:133:parse_string_should_not_overflow_with_closing_backslash:PASS
+
+-----------------------
+6 Tests 0 Failures 0 Ignored 
+OK
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_array.c:162:parse_array_should_parse_empty_arrays:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_array.c:163:parse_array_should_parse_arrays_with_one_element:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_array.c:164:parse_array_should_parse_arrays_with_multiple_elements:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_array.c:165:parse_array_should_not_parse_non_arrays:PASS
+
+-----------------------
+4 Tests 0 Failures 0 Ignored 
+OK
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_object.c:171:parse_object_should_parse_empty_objects:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_object.c:172:parse_object_should_not_parse_non_objects:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_object.c:173:parse_object_should_parse_objects_with_multiple_elements:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_object.c:174:parse_object_should_parse_objects_with_one_element:PASS
+
+-----------------------
+4 Tests 0 Failures 0 Ignored 
+OK
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_value.c:104:parse_value_should_parse_null:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_value.c:105:parse_value_should_parse_true:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_value.c:106:parse_value_should_parse_false:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_value.c:107:parse_value_should_parse_number:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_value.c:108:parse_value_should_parse_string:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_value.c:109:parse_value_should_parse_array:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_value.c:110:parse_value_should_parse_object:PASS
+
+-----------------------
+7 Tests 0 Failures 0 Ignored 
+OK
+/workspace/research/worktrees/C03-E01-screen/reference/tests/print_string.c:73:print_string_should_print_empty_strings:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/print_string.c:74:print_string_should_print_ascii:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/print_string.c:75:print_string_should_print_utf8:PASS
+
+-----------------------
+3 Tests 0 Failures 0 Ignored 
+OK
+/workspace/research/worktrees/C03-E01-screen/reference/tests/print_number.c:117:print_number_should_print_zero:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/print_number.c:118:print_number_should_print_negative_integers:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/print_number.c:119:print_number_should_print_positive_integers:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/print_number.c:120:print_number_should_print_positive_reals:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/print_number.c:121:print_number_should_print_negative_reals:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/print_number.c:105:print_number_should_print_non_number:IGNORE
+
+-----------------------
+6 Tests 0 Failures 1 Ignored 
+OK
+/workspace/research/worktrees/C03-E01-screen/reference/tests/print_array.c:95:print_array_should_print_empty_arrays:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/print_array.c:96:print_array_should_print_arrays_with_one_element:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/print_array.c:97:print_array_should_print_arrays_with_multiple_elements:PASS
+
+-----------------------
+3 Tests 0 Failures 0 Ignored 
+OK
+/workspace/research/worktrees/C03-E01-screen/reference/tests/print_object.c:96:print_object_should_print_empty_objects:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/print_object.c:97:print_object_should_print_objects_with_one_element:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/print_object.c:98:print_object_should_print_objects_with_multiple_elements:PASS
+
+-----------------------
+3 Tests 0 Failures 0 Ignored 
+OK
+/workspace/research/worktrees/C03-E01-screen/reference/tests/print_value.c:98:print_value_should_print_null:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/print_value.c:99:print_value_should_print_true:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/print_value.c:100:print_value_should_print_false:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/print_value.c:101:print_value_should_print_number:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/print_value.c:102:print_value_should_print_string:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/print_value.c:103:print_value_should_print_array:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/print_value.c:104:print_value_should_print_object:PASS
+
+-----------------------
+7 Tests 0 Failures 0 Ignored 
+OK
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:806:cjson_array_foreach_should_loop_over_arrays:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:807:cjson_array_foreach_should_not_dereference_null_pointer:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:808:cjson_get_object_item_should_get_object_items:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:809:cjson_get_object_item_case_sensitive_should_get_object_items:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:810:cjson_get_object_item_should_not_crash_with_array:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:811:cjson_get_object_item_case_sensitive_should_not_crash_with_array:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:812:typecheck_functions_should_check_type:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:813:cjson_should_not_parse_to_deeply_nested_jsons:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:814:cjson_should_not_follow_too_deep_circular_references:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:815:cjson_set_number_value_should_set_numbers:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:816:cjson_detach_item_via_pointer_should_detach_items:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:817:cjson_detach_item_via_pointer_should_return_null_if_item_prev_is_null:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:818:cjson_replace_item_via_pointer_should_replace_items:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:819:cjson_replace_item_in_object_should_preserve_name:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:820:cjson_functions_should_not_crash_with_null_pointers:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:821:cjson_set_valuestring_should_return_null_if_strings_overlap:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:822:ensure_should_fail_on_failed_realloc:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:823:skip_utf8_bom_should_skip_bom:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:824:skip_utf8_bom_should_not_skip_bom_if_not_at_beginning:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:825:cjson_get_string_value_should_get_a_string:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:826:cjson_get_number_value_should_get_a_number:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:827:cjson_create_string_reference_should_create_a_string_reference:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:828:cjson_create_object_reference_should_create_an_object_reference:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:829:cjson_create_array_reference_should_create_an_array_reference:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:830:cjson_add_item_to_object_or_array_should_not_add_itself:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:831:cjson_add_item_to_object_should_not_use_after_free_when_string_is_aliased:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:832:cjson_delete_item_from_array_should_not_broken_list_structure:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:833:cjson_set_valuestring_to_object_should_not_leak_memory:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:834:cjson_set_bool_value_must_not_break_objects:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_tests.c:835:cjson_parse_big_numbers_should_not_report_error:PASS
+
+-----------------------
+30 Tests 0 Failures 0 Ignored 
+OK
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_with_opts.c:104:parse_with_opts_should_handle_null:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_with_opts.c:105:parse_with_opts_should_handle_empty_strings:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_with_opts.c:106:parse_with_opts_should_handle_incomplete_json:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_with_opts.c:107:parse_with_opts_should_require_null_if_requested:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_with_opts.c:108:parse_with_opts_should_return_parse_end:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/parse_with_opts.c:109:parse_with_opts_should_parse_utf8_bom:PASS
+
+-----------------------
+6 Tests 0 Failures 0 Ignored 
+OK
+/workspace/research/worktrees/C03-E01-screen/reference/tests/compare_tests.c:196:cjson_compare_should_compare_null_pointer_as_not_equal:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/compare_tests.c:197:cjson_compare_should_compare_invalid_as_not_equal:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/compare_tests.c:198:cjson_compare_should_compare_numbers:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/compare_tests.c:199:cjson_compare_should_compare_booleans:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/compare_tests.c:200:cjson_compare_should_compare_null:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/compare_tests.c:201:cjson_compare_should_not_accept_invalid_types:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/compare_tests.c:202:cjson_compare_should_compare_strings:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/compare_tests.c:203:cjson_compare_should_compare_raw:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/compare_tests.c:204:cjson_compare_should_compare_arrays:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/compare_tests.c:205:cjson_compare_should_compare_objects:PASS
+
+-----------------------
+10 Tests 0 Failures 0 Ignored 
+OK
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:429:cjson_add_null_should_add_null:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:430:cjson_add_null_should_fail_with_null_pointers:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:431:cjson_add_null_should_fail_on_allocation_failure:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:433:cjson_add_true_should_add_true:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:434:cjson_add_true_should_fail_with_null_pointers:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:435:cjson_add_true_should_fail_on_allocation_failure:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:437:cjson_create_int_array_should_fail_on_allocation_failure:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:438:cjson_create_float_array_should_fail_on_allocation_failure:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:439:cjson_create_double_array_should_fail_on_allocation_failure:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:440:cjson_create_string_array_should_fail_on_allocation_failure:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:442:cjson_add_false_should_add_false:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:443:cjson_add_false_should_fail_with_null_pointers:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:444:cjson_add_false_should_fail_on_allocation_failure:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:446:cjson_add_bool_should_add_bool:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:447:cjson_add_bool_should_fail_with_null_pointers:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:448:cjson_add_bool_should_fail_on_allocation_failure:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:450:cjson_add_number_should_add_number:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:451:cjson_add_number_should_fail_with_null_pointers:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:452:cjson_add_number_should_fail_on_allocation_failure:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:454:cjson_add_string_should_add_string:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:455:cjson_add_string_should_fail_with_null_pointers:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:456:cjson_add_string_should_fail_on_allocation_failure:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:458:cjson_add_raw_should_add_raw:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:459:cjson_add_raw_should_fail_with_null_pointers:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:460:cjson_add_raw_should_fail_on_allocation_failure:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:462:cJSON_add_object_should_add_object:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:463:cjson_add_object_should_fail_with_null_pointers:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:464:cjson_add_object_should_fail_on_allocation_failure:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:466:cJSON_add_array_should_add_array:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:467:cjson_add_array_should_fail_with_null_pointers:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/cjson_add.c:468:cjson_add_array_should_fail_on_allocation_failure:PASS
+
+-----------------------
+31 Tests 0 Failures 0 Ignored 
+OK
+/workspace/research/worktrees/C03-E01-screen/reference/tests/readme_examples.c:253:create_monitor_should_create_a_monitor:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/readme_examples.c:254:create_monitor_with_helpers_should_create_a_monitor:PASS
+Checking monitor "Awesome 4K"
+Checking monitor "lame monitor"
+/workspace/research/worktrees/C03-E01-screen/reference/tests/readme_examples.c:255:supports_full_hd_should_check_for_full_hd_support:PASS
+
+-----------------------
+3 Tests 0 Failures 0 Ignored 
+OK
+/workspace/research/worktrees/C03-E01-screen/reference/tests/minify_tests.c:165:cjson_minify_should_not_overflow_buffer:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/minify_tests.c:166:cjson_minify_should_minify_json:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/minify_tests.c:167:cjson_minify_should_remove_single_line_comments:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/minify_tests.c:168:cjson_minify_should_remove_multiline_comments:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/minify_tests.c:169:cjson_minify_should_remove_spaces:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/minify_tests.c:170:cjson_minify_should_not_modify_strings:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/minify_tests.c:171:cjson_minify_should_not_loop_infinitely:PASS
+
+-----------------------
+7 Tests 0 Failures 0 Ignored 
+OK
+Testing "empty list, empty docs"
+OK
+[]
+generated patch: OK
+Testing "empty patch list"
+OK
+[]
+generated patch: OK
+Testing "rearrangements OK?"
+OK
+[]
+generated patch: OK
+Testing "rearrangements OK?  How about one level down ... array"
+OK
+[]
+generated patch: OK
+Testing "rearrangements OK?  How about one level down..."
+OK
+[]
+generated patch: OK
+Testing "add replaces any existing field"
+OK
+[{
+		"op":	"replace",
+		"path":	"/foo",
+		"value":	1
+	}]
+generated patch: OK
+Testing "toplevel array"
+OK
+[{
+		"op":	"add",
+		"path":	"/-",
+		"value":	"foo"
+	}]
+generated patch: OK
+Testing "toplevel array, no change"
+OK
+[]
+generated patch: OK
+Testing "toplevel object, numeric string"
+OK
+[{
+		"op":	"add",
+		"path":	"/foo",
+		"value":	"1"
+	}]
+generated patch: OK
+Testing "toplevel object, integer"
+OK
+[{
+		"op":	"add",
+		"path":	"/foo",
+		"value":	1
+	}]
+generated patch: OK
+Testing "Toplevel scalar values OK?"
+SKIPPED
+SKIPPED
+Testing "replace object document with array document?"
+OK
+[{
+		"op":	"replace",
+		"path":	"",
+		"value":	[]
+	}]
+generated patch: OK
+Testing "replace array document with object document?"
+OK
+[{
+		"op":	"replace",
+		"path":	"",
+		"value":	{
+		}
+	}]
+generated patch: OK
+Testing "append to root array document?"
+OK
+[{
+		"op":	"add",
+		"path":	"/-",
+		"value":	"hi"
+	}]
+generated patch: OK
+Testing "Add, / target"
+OK
+[{
+		"op":	"add",
+		"path":	"/",
+		"value":	1
+	}]
+generated patch: OK
+Testing "Add, /foo/ deep target (trailing slash)"
+OK
+[{
+		"op":	"add",
+		"path":	"/foo/",
+		"value":	1
+	}]
+generated patch: OK
+Testing "Add composite value at top level"
+OK
+[{
+		"op":	"add",
+		"path":	"/bar",
+		"value":	[1, 2]
+	}]
+generated patch: OK
+Testing "Add into composite value"
+OK
+[{
+		"op":	"add",
+		"path":	"/baz/0/foo",
+		"value":	"world"
+	}]
+generated patch: OK
+Testing unknown
+OK
+Testing unknown
+OK
+Testing unknown
+OK
+[{
+		"op":	"add",
+		"path":	"/bar",
+		"value":	true
+	}]
+generated patch: OK
+Testing unknown
+OK
+[{
+		"op":	"add",
+		"path":	"/bar",
+		"value":	false
+	}]
+generated patch: OK
+Testing unknown
+OK
+[{
+		"op":	"add",
+		"path":	"/bar",
+		"value":	null
+	}]
+generated patch: OK
+Testing "0 can be an array index or object element name"
+OK
+[{
+		"op":	"add",
+		"path":	"/0",
+		"value":	"bar"
+	}]
+generated patch: OK
+Testing unknown
+OK
+[{
+		"op":	"add",
+		"path":	"/-",
+		"value":	"bar"
+	}]
+generated patch: OK
+Testing unknown
+OK
+[{
+		"op":	"replace",
+		"path":	"/1",
+		"value":	"bar"
+	}, {
+		"op":	"add",
+		"path":	"/-",
+		"value":	"sil"
+	}]
+generated patch: OK
+Testing unknown
+OK
+[{
+		"op":	"replace",
+		"path":	"/0",
+		"value":	"bar"
+	}, {
+		"op":	"replace",
+		"path":	"/1",
+		"value":	"foo"
+	}, {
+		"op":	"add",
+		"path":	"/-",
+		"value":	"sil"
+	}]
+generated patch: OK
+Testing "push item to array via last index + 1"
+OK
+[{
+		"op":	"add",
+		"path":	"/-",
+		"value":	"bar"
+	}]
+generated patch: OK
+Testing "add item to array at index > length should fail"
+OK
+Testing "test against implementation-specific numeric parsing"
+OK
+[]
+generated patch: OK
+Testing "test with bad number should fail"
+OK
+Testing unknown
+OK
+Testing "value in array add not flattened"
+OK
+[{
+		"op":	"replace",
+		"path":	"/1",
+		"value":	["bar", "baz"]
+	}, {
+		"op":	"add",
+		"path":	"/-",
+		"value":	"sil"
+	}]
+generated patch: OK
+Testing unknown
+OK
+[{
+		"op":	"remove",
+		"path":	"/bar"
+	}]
+generated patch: OK
+Testing unknown
+OK
+[{
+		"op":	"remove",
+		"path":	"/baz/0/qux"
+	}]
+generated patch: OK
+Testing unknown
+OK
+[{
+		"op":	"replace",
+		"path":	"/foo",
+		"value":	[1, 2, 3, 4]
+	}]
+generated patch: OK
+Testing unknown
+OK
+[{
+		"op":	"replace",
+		"path":	"/baz/0/qux",
+		"value":	"world"
+	}]
+generated patch: OK
+Testing unknown
+OK
+[{
+		"op":	"replace",
+		"path":	"/0",
+		"value":	"bar"
+	}]
+generated patch: OK
+Testing unknown
+OK
+[{
+		"op":	"replace",
+		"path":	"/0",
+		"value":	0
+	}]
+generated patch: OK
+Testing unknown
+OK
+[{
+		"op":	"replace",
+		"path":	"/0",
+		"value":	true
+	}]
+generated patch: OK
+Testing unknown
+OK
+[{
+		"op":	"replace",
+		"path":	"/0",
+		"value":	false
+	}]
+generated patch: OK
+Testing unknown
+OK
+[{
+		"op":	"replace",
+		"path":	"/0",
+		"value":	null
+	}]
+generated patch: OK
+Testing "value in array replace not flattened"
+OK
+[{
+		"op":	"replace",
+		"path":	"/1",
+		"value":	["bar", "baz"]
+	}]
+generated patch: OK
+Testing "replace whole document"
+OK
+[{
+		"op":	"add",
+		"path":	"/baz",
+		"value":	"qux"
+	}, {
+		"op":	"remove",
+		"path":	"/foo"
+	}]
+generated patch: OK
+Testing "test replace with missing parent key should fail"
+OK
+Testing "spurious patch properties"
+OK
+[]
+generated patch: OK
+Testing "null value should be valid obj property"
+OK
+[]
+generated patch: OK
+Testing "null value should be valid obj property to be replaced with something truthy"
+OK
+[{
+		"op":	"replace",
+		"path":	"/foo",
+		"value":	"truthy"
+	}]
+generated patch: OK
+Testing "null value should be valid obj property to be moved"
+OK
+[{
+		"op":	"add",
+		"path":	"/bar",
+		"value":	null
+	}, {
+		"op":	"remove",
+		"path":	"/foo"
+	}]
+generated patch: OK
+Testing "null value should be valid obj property to be copied"
+OK
+[{
+		"op":	"add",
+		"path":	"/bar",
+		"value":	null
+	}]
+generated patch: OK
+Testing "null value should be valid obj property to be removed"
+OK
+[{
+		"op":	"remove",
+		"path":	"/foo"
+	}]
+generated patch: OK
+Testing "null value should still be valid obj property replace other value"
+OK
+[{
+		"op":	"replace",
+		"path":	"/foo",
+		"value":	null
+	}]
+generated patch: OK
+Testing "test should pass despite rearrangement"
+OK
+[]
+generated patch: OK
+Testing "test should pass despite (nested) rearrangement"
+OK
+[]
+generated patch: OK
+Testing "test should pass - no error"
+OK
+[]
+generated patch: OK
+Testing unknown
+OK
+Testing "Whole document"
+SKIPPED
+SKIPPED
+Testing "Empty-string element"
+OK
+[]
+generated patch: OK
+Testing unknown
+OK
+[]
+generated patch: OK
+Testing "Move to same location has no effect"
+OK
+[]
+generated patch: OK
+Testing unknown
+OK
+[{
+		"op":	"add",
+		"path":	"/bar",
+		"value":	1
+	}, {
+		"op":	"remove",
+		"path":	"/foo"
+	}]
+generated patch: OK
+Testing unknown
+OK
+[{
+		"op":	"remove",
+		"path":	"/baz/0/qux"
+	}, {
+		"op":	"add",
+		"path":	"/baz/-",
+		"value":	"hello"
+	}]
+generated patch: OK
+Testing unknown
+OK
+[{
+		"op":	"add",
+		"path":	"/boo",
+		"value":	{
+			"qux":	"hello"
+		}
+	}]
+generated patch: OK
+Testing "replacing the root of the document is possible with add"
+OK
+[{
+		"op":	"add",
+		"path":	"/baz",
+		"value":	"qux"
+	}, {
+		"op":	"remove",
+		"path":	"/foo"
+	}]
+generated patch: OK
+Testing "Adding to "/-" adds to the end of the array"
+OK
+[{
+		"op":	"add",
+		"path":	"/-",
+		"value":	{
+			"foo":	["bar", "baz"]
+		}
+	}]
+generated patch: OK
+Testing "Adding to "/-" adds to the end of the array, even n levels down"
+OK
+[{
+		"op":	"add",
+		"path":	"/2/1/-",
+		"value":	{
+			"foo":	["bar", "baz"]
+		}
+	}]
+generated patch: OK
+Testing "test remove with bad number should fail"
+OK
+Testing "test remove on array"
+OK
+[{
+		"op":	"replace",
+		"path":	"/0",
+		"value":	2
+	}, {
+		"op":	"replace",
+		"path":	"/1",
+		"value":	3
+	}, {
+		"op":	"replace",
+		"path":	"/2",
+		"value":	4
+	}, {
+		"op":	"remove",
+		"path":	"/3"
+	}]
+generated patch: OK
+Testing "test repeated removes"
+OK
+[{
+		"op":	"replace",
+		"path":	"/1",
+		"value":	3
+	}, {
+		"op":	"remove",
+		"path":	"/2"
+	}, {
+		"op":	"remove",
+		"path":	"/2"
+	}]
+generated patch: OK
+Testing "test remove with bad index should fail"
+OK
+Testing "test replace with bad number should fail"
+OK
+Testing "test copy with bad number should fail"
+OK
+Testing "test move with bad number should fail"
+OK
+Testing "test add with bad number should fail"
+OK
+Testing "missing 'value' parameter to add"
+OK
+Testing "missing 'value' parameter to replace"
+OK
+Testing "missing 'value' parameter to test"
+OK
+Testing "missing value parameter to test - where undef is falsy"
+OK
+Testing "missing from parameter to copy"
+OK
+Testing "missing from location to copy"
+OK
+Testing "missing from parameter to move"
+OK
+Testing "missing from location to move"
+OK
+Testing "duplicate ops"
+SKIPPED
+SKIPPED
+Testing "unrecognized op should fail"
+OK
+Testing "test with bad array number that has leading zeros"
+OK
+Testing "test with bad array number that has leading zeros"
+OK
+Testing "Removing nonexistent field"
+OK
+Testing "Removing nonexistent index"
+OK
+Testing "Patch with different capitalisation than doc"
+OK
+[{
+		"op":	"add",
+		"path":	"/FOO",
+		"value":	"BAR"
+	}]
+generated patch: OK
+/workspace/research/worktrees/C03-E01-screen/reference/tests/json_patch_tests.c:238:cjson_utils_should_pass_json_patch_test_tests:PASS
+Testing "4.1. add with missing object"
+OK
+Testing "A.1.  Adding an Object Member"
+OK
+[{
+		"op":	"add",
+		"path":	"/baz",
+		"value":	"qux"
+	}]
+generated patch: OK
+Testing "A.2.  Adding an Array Element"
+OK
+[{
+		"op":	"replace",
+		"path":	"/foo/1",
+		"value":	"qux"
+	}, {
+		"op":	"add",
+		"path":	"/foo/-",
+		"value":	"baz"
+	}]
+generated patch: OK
+Testing "A.3.  Removing an Object Member"
+OK
+[{
+		"op":	"remove",
+		"path":	"/baz"
+	}]
+generated patch: OK
+Testing "A.4.  Removing an Array Element"
+OK
+[{
+		"op":	"replace",
+		"path":	"/foo/1",
+		"value":	"baz"
+	}, {
+		"op":	"remove",
+		"path":	"/foo/2"
+	}]
+generated patch: OK
+Testing "A.5.  Replacing a Value"
+OK
+[{
+		"op":	"replace",
+		"path":	"/baz",
+		"value":	"boo"
+	}]
+generated patch: OK
+Testing "A.6.  Moving a Value"
+OK
+[{
+		"op":	"remove",
+		"path":	"/foo/waldo"
+	}, {
+		"op":	"add",
+		"path":	"/qux/thud",
+		"value":	"fred"
+	}]
+generated patch: OK
+Testing "A.7.  Moving an Array Element"
+OK
+[{
+		"op":	"replace",
+		"path":	"/foo/1",
+		"value":	"cows"
+	}, {
+		"op":	"replace",
+		"path":	"/foo/2",
+		"value":	"eat"
+	}, {
+		"op":	"replace",
+		"path":	"/foo/3",
+		"value":	"grass"
+	}]
+generated patch: OK
+Testing "A.8.  Testing a Value: Success"
+OK
+[]
+generated patch: OK
+Testing "A.9.  Testing a Value: Error"
+OK
+Testing "A.10.  Adding a nested Member Object"
+OK
+[{
+		"op":	"add",
+		"path":	"/child",
+		"value":	{
+			"grandchild":	{
+			}
+		}
+	}]
+generated patch: OK
+Testing "A.11.  Ignoring Unrecognized Elements"
+OK
+[{
+		"op":	"add",
+		"path":	"/baz",
+		"value":	"qux"
+	}]
+generated patch: OK
+Testing "A.12.  Adding to a Non-existent Target"
+OK
+Testing "A.13 Invalid JSON Patch Document"
+SKIPPED
+SKIPPED
+Testing "A.14. ~ Escape Ordering"
+OK
+[]
+generated patch: OK
+Testing "A.15. Comparing Strings and Numbers"
+OK
+Testing "A.16. Adding an Array Value"
+OK
+[{
+		"op":	"add",
+		"path":	"/foo/-",
+		"value":	["abc", "def"]
+	}]
+generated patch: OK
+/workspace/research/worktrees/C03-E01-screen/reference/tests/json_patch_tests.c:239:cjson_utils_should_pass_json_patch_test_spec_tests:PASS
+Testing "1"
+OK
+[{
+		"op":	"add",
+		"path":	"/baz",
+		"value":	"qux"
+	}]
+generated patch: OK
+Testing "2"
+OK
+[{
+		"op":	"replace",
+		"path":	"/foo/1",
+		"value":	"qux"
+	}, {
+		"op":	"add",
+		"path":	"/foo/-",
+		"value":	"baz"
+	}]
+generated patch: OK
+Testing "3"
+OK
+[{
+		"op":	"remove",
+		"path":	"/baz"
+	}]
+generated patch: OK
+Testing "4"
+OK
+[{
+		"op":	"replace",
+		"path":	"/foo/1",
+		"value":	"baz"
+	}, {
+		"op":	"remove",
+		"path":	"/foo/2"
+	}]
+generated patch: OK
+Testing "5"
+OK
+[{
+		"op":	"replace",
+		"path":	"/baz",
+		"value":	"boo"
+	}]
+generated patch: OK
+Testing "6"
+OK
+[{
+		"op":	"remove",
+		"path":	"/foo/waldo"
+	}, {
+		"op":	"add",
+		"path":	"/qux/thud",
+		"value":	"fred"
+	}]
+generated patch: OK
+Testing "7"
+OK
+[{
+		"op":	"replace",
+		"path":	"/foo/1",
+		"value":	"cows"
+	}, {
+		"op":	"replace",
+		"path":	"/foo/2",
+		"value":	"eat"
+	}, {
+		"op":	"replace",
+		"path":	"/foo/3",
+		"value":	"grass"
+	}]
+generated patch: OK
+Testing "8"
+OK
+Testing "9"
+OK
+Testing "10"
+OK
+[{
+		"op":	"add",
+		"path":	"/child",
+		"value":	{
+			"grandchild":	{
+			}
+		}
+	}]
+generated patch: OK
+Testing "11"
+OK
+[{
+		"op":	"add",
+		"path":	"/baz",
+		"value":	"qux"
+	}]
+generated patch: OK
+Testing "12"
+OK
+Testing "13"
+OK
+Testing "14"
+OK
+[{
+		"op":	"add",
+		"path":	"/foo/-",
+		"value":	["abc", "def"]
+	}]
+generated patch: OK
+Testing "15"
+OK
+/workspace/research/worktrees/C03-E01-screen/reference/tests/json_patch_tests.c:240:cjson_utils_should_pass_json_patch_test_cjson_utils_tests:PASS
+
+-----------------------
+3 Tests 0 Failures 0 Ignored 
+OK
+/workspace/research/worktrees/C03-E01-screen/reference/tests/old_utils_tests.c:251:json_pointer_tests:PASS
+JSON Pointer construct
+/workspace/research/worktrees/C03-E01-screen/reference/tests/old_utils_tests.c:252:misc_tests:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/old_utils_tests.c:253:sort_tests:PASS
+JSON Merge Patch tests
+/workspace/research/worktrees/C03-E01-screen/reference/tests/old_utils_tests.c:254:merge_tests:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/old_utils_tests.c:255:merge_patch_should_not_read_freed_memory_when_patch_is_subtree:PASS
+/workspace/research/worktrees/C03-E01-screen/reference/tests/old_utils_tests.c:256:generate_merge_tests:PASS
+
+-----------------------
+6 Tests 0 Failures 0 Ignored 
+OK
+/workspace/research/worktrees/C03-E01-screen/reference/tests/misc_utils_tests.c:77:cjson_utils_functions_shouldnt_crash_with_null_pointers:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+3891 independent JSON/differential/bounded cases passed
+1530 protected-page exact-boundary cases passed

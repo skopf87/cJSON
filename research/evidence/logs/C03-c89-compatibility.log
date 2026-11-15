@@ -1,0 +1,2 @@
+command: ['gcc', '-std=c89', '-pedantic', '-Wall', '-Wextra', '-Werror', '-O3', '-I', 'repos/cJSON', '-fopt-info-vec-optimized=build/compat/C03-vectorization.txt', '-c', 'build/compat/cJSON.c', '-o', 'build/compat/C03.o']
+exit: 0

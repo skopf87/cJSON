@@ -1,0 +1,17 @@
+--- a/cJSON.c
++++ b/cJSON.c
+@@ -880,7 +880,13 @@
+     {
+         if (*input_pointer != '\\')
+         {
+-            *output_pointer++ = *input_pointer++;
++            const unsigned char *next_escape = (const unsigned char*)memchr(
++                input_pointer, '\\', (size_t)(input_end - input_pointer));
++            const unsigned char *run_end = next_escape ? next_escape : input_end;
++            size_t run_length = (size_t)(run_end - input_pointer);
++            memcpy(output_pointer, input_pointer, run_length);
++            output_pointer += run_length;
++            input_pointer = run_end;
+         }
+         /* escape sequence */
+         else

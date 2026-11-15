@@ -1,0 +1,24 @@
+--- a/cJSON.c
++++ b/cJSON.c
+@@ -864,6 +864,13 @@
+         if (output == NULL)
+         {
+             goto fail; /* allocation failure */
++        }
++        if (skipped_bytes == 0)
++        {
++            size_t string_length = (size_t)(input_end - input_pointer);
++            memcpy(output, input_pointer, string_length);
++            output_pointer = output + string_length;
++            goto success;
+         }
+     }
+ 
+@@ -924,6 +931,7 @@
+         }
+     }
+ 
++success:
+     /* zero terminate the output */
+     *output_pointer = '\0';
+ 

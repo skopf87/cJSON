@@ -1,0 +1,91 @@
+{
+  "repository": "https://github.com/DaveGamble/cJSON",
+  "repo_dir": "cJSON",
+  "upstream_commit": "6d9f2443ab071f86e5d9b43025a40929ec41c46c",
+  "protocol_version": 1,
+  "editable": [
+    "cJSON.c"
+  ],
+  "immutable": [
+    "benchmarks/cjson_adapter.py",
+    "benchmarks/cjson_bench.c",
+    "benchmarks/cjson_validate.py",
+    "benchmarks/cjson_bounds.c",
+    "fixtures/cjson/github-repo.json",
+    "fixtures/cjson/long-text.json",
+    "fixtures/cjson/mixed-escapes.json",
+    "fixtures/cjson/numbers.json",
+    "fixtures/cjson/short-keys.json",
+    "fixtures/cjson/unicode.json",
+    "fixtures/cjson/upstream-test1.json",
+    "fixtures/cjson/upstream-test4.json"
+  ],
+  "build": [
+    [
+      "python3",
+      "{root}/benchmarks/cjson_adapter.py",
+      "build",
+      "{src}",
+      "{build}"
+    ]
+  ],
+  "test": [
+    [
+      "python3",
+      "{root}/benchmarks/cjson_adapter.py",
+      "test",
+      "{src}",
+      "{build}"
+    ]
+  ],
+  "benchmark": [
+    "taskset",
+    "-c",
+    "0",
+    "{build}/cjson_bench"
+  ],
+  "timeout": 120,
+  "benchmark_timeout": 30,
+  "screen_rounds": 3,
+  "validation_rounds": 15,
+  "warmups": 1,
+  "order_seed": 20261115,
+  "minimum_gain": 0.02,
+  "regression_limit": 0.03,
+  "memory_ratio_limit": 1.1,
+  "memory_slack_kb": 1024,
+  "workloads": [
+    {
+      "name": "short-keys",
+      "split": "screen"
+    },
+    {
+      "name": "long-text",
+      "split": "screen"
+    },
+    {
+      "name": "mixed-escapes",
+      "split": "screen"
+    },
+    {
+      "name": "unicode",
+      "split": "heldout"
+    },
+    {
+      "name": "numbers",
+      "split": "heldout"
+    },
+    {
+      "name": "upstream-test1",
+      "split": "heldout"
+    },
+    {
+      "name": "upstream-test4",
+      "split": "heldout"
+    },
+    {
+      "name": "github-repo",
+      "split": "heldout"
+    }
+  ]
+}
