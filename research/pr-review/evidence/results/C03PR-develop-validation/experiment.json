@@ -1,0 +1,178 @@
+{
+  "id": "C03PR-develop-validation",
+  "target": "C03PR",
+  "started": "2026-11-15T18:38:53.556580+00:00",
+  "reference_commit": "1ac905d3b2359f48a0463afe8e16a080f0e1e03c",
+  "upstream_commit": "1ac905d3b2359f48a0463afe8e16a080f0e1e03c",
+  "hypothesis": "Validate the unescaped-string copy on the CONTRIBUTING-required develop base, with native bounded-string regression coverage",
+  "stage": "validate",
+  "immutable": {
+    "configs/C03PR.json": "6d1b64359f6c81557cf5e606bc03040e6f3e6b21bfb3de518fbffca21c0968c2",
+    "framework/lab.py": "f3ba128f539da7fe27da7af256cd37f9d15a9528bb082420c6fad9b0817c8861",
+    "benchmarks/cjson_adapter.py": "165bac7cfba035679155714b5e45fb63f40dc6cd7e617f80fc4e7847e5947c50",
+    "benchmarks/cjson_bench.c": "c22c01eedb9af063a10e61beec825239375636e14ac00f448ff7923b3bcdafa1",
+    "benchmarks/cjson_validate.py": "f34c5257adeb3d386a8ea0f1db81d2ca907c516acf8e2378078ea4a932edf25f",
+    "benchmarks/cjson_bounds.c": "fa68eb7342343d50968052984bb3415e0b149587114f500c8fbf615dbe4f965f",
+    "fixtures/cjson/github-repo.json": "775b12e2922498bc4dff4f49e0a0d0b7abfc6c1c3f8f6df2f076328fa1b4cadc",
+    "fixtures/cjson/long-text.json": "2c07835255da33a3476343e088bdc5fa9cc7edf357efad90f3f6e4647f0bc517",
+    "fixtures/cjson/mixed-escapes.json": "f4ddb811e14bcfcafb2d3cd468ef682d3fa156ff27067eb970cb92c700bb31d4",
+    "fixtures/cjson/numbers.json": "f52395756cbea696ab0d72cae7f8abc36629fe03af700b627f5e8e5c2626cc56",
+    "fixtures/cjson/short-keys.json": "2e07571b62d636dc405399246793fb958ccce8909c6ab11fb88de51ba2dd177e",
+    "fixtures/cjson/unicode.json": "c9eef4f0733d10e92eb2373b0200f651b323ba629856d69d7645425957afff0a",
+    "fixtures/cjson/upstream-test1.json": "b03c70f84fecd61f88de1d480a6b151157db38d1459d79fcb08046189946e6ae",
+    "fixtures/cjson/upstream-test4.json": "a01e18f77d08bdef9a872d9c3d2b5f58b86c3ed6db1f9bf68db969357b0743e4"
+  },
+  "status": "accepted",
+  "patch_sha256": "720090328a4dc51f35103f0317fe9e5fdbe1d1bd31a8909ad2714763c7f2ce60",
+  "modified_files": [
+    "cJSON.c",
+    "tests/parse_string.c"
+  ],
+  "correctness": "pass",
+  "metrics": {
+    "short-keys": {
+      "split": "screen",
+      "reference_median": 0.151840688,
+      "trial_median": 0.151300323,
+      "reference_cv": 0.02959146819301244,
+      "trial_cv": 0.04645208183273247,
+      "ratio": 1.001444543818952,
+      "time_reduction_pct": -0.14445438189520932,
+      "ratio_ci95": [
+        0.9819608647914397,
+        1.0222733384041152
+      ],
+      "reference_rss_kb": 14464,
+      "trial_rss_kb": 14464
+    },
+    "long-text": {
+      "split": "screen",
+      "reference_median": 0.030710187,
+      "trial_median": 0.016647043,
+      "reference_cv": 0.06978293228461975,
+      "trial_cv": 0.03067046182670712,
+      "ratio": 0.5316635307803843,
+      "time_reduction_pct": 46.83364692196157,
+      "ratio_ci95": [
+        0.513647428078757,
+        0.5486488685327396
+      ],
+      "reference_rss_kb": 14464,
+      "trial_rss_kb": 14464
+    },
+    "mixed-escapes": {
+      "split": "screen",
+      "reference_median": 0.061262676,
+      "trial_median": 0.050577825,
+      "reference_cv": 0.05393368473408098,
+      "trial_cv": 0.0649717614588366,
+      "ratio": 0.8252639697052753,
+      "time_reduction_pct": 17.47360302947247,
+      "ratio_ci95": [
+        0.7991649358124054,
+        0.8551427274944953
+      ],
+      "reference_rss_kb": 14464,
+      "trial_rss_kb": 14464
+    },
+    "unicode": {
+      "split": "heldout",
+      "reference_median": 0.046318439,
+      "trial_median": 0.031911087,
+      "reference_cv": 0.05940231244295611,
+      "trial_cv": 0.03811376385788174,
+      "ratio": 0.6887197885205062,
+      "time_reduction_pct": 31.12802114794938,
+      "ratio_ci95": [
+        0.6728317549238281,
+        0.7037360983409552
+      ],
+      "reference_rss_kb": 14464,
+      "trial_rss_kb": 14464
+    },
+    "numbers": {
+      "split": "heldout",
+      "reference_median": 0.366261717,
+      "trial_median": 0.364014456,
+      "reference_cv": 0.02406312280700081,
+      "trial_cv": 0.028053007151163527,
+      "ratio": 0.9987334057907453,
+      "time_reduction_pct": 0.1266594209254679,
+      "ratio_ci95": [
+        0.9865463982230903,
+        1.0111528922920998
+      ],
+      "reference_rss_kb": 14464,
+      "trial_rss_kb": 14464
+    },
+    "upstream-test1": {
+      "split": "heldout",
+      "reference_median": 0.05300101,
+      "trial_median": 0.048130442,
+      "reference_cv": 0.03403865772220485,
+      "trial_cv": 0.030544619733155486,
+      "ratio": 0.9103358575064875,
+      "time_reduction_pct": 8.966414249351251,
+      "ratio_ci95": [
+        0.8946328113074146,
+        0.9257686623885243
+      ],
+      "reference_rss_kb": 14464,
+      "trial_rss_kb": 14464
+    },
+    "upstream-test4": {
+      "split": "heldout",
+      "reference_median": 0.056987428,
+      "trial_median": 0.049990431,
+      "reference_cv": 0.029251905153760794,
+      "trial_cv": 0.03012859544916009,
+      "ratio": 0.8824350145238249,
+      "time_reduction_pct": 11.756498547617511,
+      "ratio_ci95": [
+        0.8738949530370066,
+        0.8921615487428641
+      ],
+      "reference_rss_kb": 14464,
+      "trial_rss_kb": 14464
+    },
+    "github-repo": {
+      "split": "heldout",
+      "reference_median": 0.053684848,
+      "trial_median": 0.044141389,
+      "reference_cv": 0.025326100970736114,
+      "trial_cv": 0.048180088460418255,
+      "ratio": 0.8264220801871756,
+      "time_reduction_pct": 17.357791981282446,
+      "ratio_ci95": [
+        0.8037956582190169,
+        0.8548897533478226
+      ],
+      "reference_rss_kb": 14464,
+      "trial_rss_kb": 14464
+    }
+  },
+  "aggregates": {
+    "screen": {
+      "ratio": 0.760242632587293,
+      "ratio_ci95": [
+        0.7451490522796055,
+        0.7735945898855677
+      ]
+    },
+    "heldout": {
+      "ratio": 0.8549007269778933,
+      "ratio_ci95": [
+        0.8463943331632395,
+        0.8642565681677639
+      ]
+    },
+    "all": {
+      "ratio": 0.8180962210038277,
+      "ratio_ci95": [
+        0.8092475632659093,
+        0.8267122856748237
+      ]
+    }
+  },
+  "finished": "2026-11-15T18:39:30.377933+00:00"
+}
